@@ -1,0 +1,5 @@
+{
+  "name": "eventemitter-promisify",
+  "version": "0.0.0",
+  "description": "EventEmitter#promisify"
+}
