@@ -1,3 +1,5 @@
-declare interface EventEmitter<T> {
-  promisify(event: string): any;
+declare module "events" {
+  interface EventEmitter {
+    promisify(event: string): any;
+  }
 }
